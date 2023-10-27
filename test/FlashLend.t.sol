@@ -18,7 +18,7 @@ contract FlashLendTest is Test {
    
     //Initial Setup
     function setUp() public {
-        address[] memory adminAddresses = new address[](3);
+       address[] memory adminAddresses = new address[](3);
 
        adminAddresses[0] = address(7);
        adminAddresses[1] = address(8);
